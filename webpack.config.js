@@ -2,7 +2,7 @@ const HTMLPlugin = require('html-webpack-plugin');
 const ExtractText = require('extract-text-webpack-plugin');
 const path = require('path');
 
-const extractText = new ExtractText('style.css');
+const extractText = new ExtractText({ filename: 'style.css', ignoreOrder: true });
 
 module.exports = {
   entry: './index.jsx',

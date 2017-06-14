@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import '@xo-union/essentials';
+import '@xo-union/tk-css-essentials';
 
-import { Field, FieldGroup, FormTheme } from '@xo-union/fields';
-import bsGrid from '@xo-union/bootstrap/grid';
+import HeaderNav from '@xo-union/tk-component-header-nav';
+import FooterNav from '@xo-union/tk-component-footer-nav';
 
 function App() {
   return (
-    <div className={bsGrid.col12}>
-      <FormTheme>
-        <FieldGroup>
-          <Field name="email" />
-        </FieldGroup>
-      </FormTheme>
+    <div>
+      <HeaderNav />
+        <div style={{marginBottom: '500px'}}>
+          {/* Put your app stuff here */}
+        </div>
+      <FooterNav />
     </div>
   )
 }
