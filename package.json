@@ -12,9 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@xo-union/tk-component-footer-nav": "^0.3.1",
-    "@xo-union/tk-component-header-nav": "^0.5.1",
-    "@xo-union/tk-css-essentials": "^0.1.7",
+    "@xo-union/tk-component-footer-nav": "0.3.1",
+    "@xo-union/tk-component-header-nav": "0.5.1",
+    "@xo-union/tk-css-essentials": "0.1.7",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
