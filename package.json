@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --inline",
     "build": "webpack",
     "build.watch": "webpack --watch"
   },
@@ -12,9 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@xo-union/tk-component-footer-nav": "0.3.1",
-    "@xo-union/tk-component-header-nav": "0.5.1",
-    "@xo-union/tk-css-essentials": "0.1.7",
+    "@xo-union/tk-component-footer-nav": "^1.0.2",
+    "@xo-union/tk-component-header-nav": "^3.0.2",
+    "@xo-union/tk-css-breakpoints": "^1.0.0",
+    "@xo-union/tk-css-essentials": "^1.0.1",
     "react-dom": "^15.4.2"
   },
   "devDependencies": {
@@ -25,6 +27,7 @@
     "extract-text-webpack-plugin": "^2.1.0",
     "html-webpack-plugin": "^2.28.0",
     "style-loader": "^0.18.2",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.9.7"
   }
 }

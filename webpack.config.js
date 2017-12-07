@@ -5,7 +5,7 @@ const path = require('path');
 const extractText = new ExtractText({ filename: 'style.css', ignoreOrder: true });
 
 module.exports = {
-  entry: './index.jsx',
+  entry: './index.js',
   context: path.resolve(__dirname, 'src'),
   output: {
     path: path.resolve(__dirname, 'dist'),
